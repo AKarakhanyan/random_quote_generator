@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+
+body {
+  transition: background-color 2s ease;
+}
+#mainDiv {
+  background-color: white;
+  width: 40vw;
+  margin: 20% auto;
+  padding: 2%;
+  position: relative;
+  border-radius: 10px;
+}
+
+#buttonDiv {
+  padding-top: 5%;
+}
+
+#newQuoteDiv {
+  text-align: left;
+
+}
+
+#newQuoteButton {
+  transition: background-color 2s ease;
+  font-size: 1.8vw; 
+  width: 15vw;
+  text-align: center;
+}
+
+#tweetBtn {
+  text-align: center;
+  margin-top: 5px;
+}
+
+#h1Quote {
+  font-size: 2.5vw;
+  font-family: 'Droid Serif', serif;
+  transition: color 1s ease;
+}
+
+#h1Author {
+  font-size: 1.8vw;
+  font-family: 'Droid Serif', serif;
+  transition: color 1s ease;
+  text-align: right;
+  padding-top: 2%;
+}

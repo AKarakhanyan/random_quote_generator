@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote Generator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<div class="container-fluid" id="mainDiv">
+  <!-- quote will go here -->
+  <div id="quoteInsertion">
+
+  </div>
+
+  <!-- button for new quotes and background color -->
+  <div id="buttonDiv">
+    <div class="row">
+      <div id="newQuoteDiv" class="col-sm-6">
+        <button class="btn btn-block button" id="newQuoteButton" onclick="requestQuote()"><strong>New Quote</strong> </button>
+      </div>
+      <!-- twitter share button -->
+      <div id="tweetBtn" class="col-sm-6">
+        <a class="twitter-share-button" data-size="large" href="http://twitter.com/share" data-url="http://test.com" data-text="REPLACEME">Tweet</a>
+        <script>
+          !(function(d, s, id) {
+            var js,
+              fjs = d.getElementsByTagName(s)[0];
+            if (!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = "//platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+          })(document, "script", "twitter-wjs");
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://use.fontawesome.com/8b038217c7.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
